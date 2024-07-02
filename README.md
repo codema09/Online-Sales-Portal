@@ -1,45 +1,31 @@
-# Online Sales Portal
+# Relational Database
 
-## Project Overview
-This E-commerce web application was developed as a term project for the Software Engineering Lab at IIT Kharagpur (March 2023), supervised by Prof. Abir Das and Prof. Sourangshu Bhattacharya. The portal facilitates buying and selling of products through an intuitive interface, featuring user authentication, product management, and a novel negotiation system.
+## Project Summary
+This C++ console application simulates a relational database engine.
 
 ## Key Features
-- Secure user registration with Email OTP verification
-- Comprehensive product catalog and search functionality
-- Integrated shopping cart and checkout process
-- Innovative three-way chat for price negotiations
-- Administrative portal for user and product oversight
-
-## Tech Stack
-- Frontend: HTML, CSS, Bootstrap
-- Backend: Flask (Python)
-- Database: SQLAlchemy
-- Email Service: SmtpJS
-
+- Custom data types (int, float, string) with operator overloading and dynamic_cast
+- Relational algebra operations:
+  - Union
+  - Difference
+  - Cartesian Product
+  - Projection
+  - Selection
+  - Natural Join
+- Adherence to OOP principles: type safety, encapsulation, abstraction etc
 
 ## Setup
 
-Clone the project
+### Requirements
+- C++ compiler
 
-```bash
-  git clone https://github.com/agrawalshivang/OSP.git
-```
-
-Go to the project directory
-
-```bash
-  cd [name_of_directory]
-```
-
-Install dependencies
-
-```bash
-  pip install -r requirements.txt
-```
-
-Start the server
-
-```bash
-  python app.py
-```
-
+### Build Instructions
+1. Get the code:
+    ```bash
+    git clone https://github.com/codema09/Relational-Database.git
+    ```
+2. Compile the code:
+    ```bash
+    g++ rdb-main.cpp rdb-basics.cpp rdb-attr.cpp rdb-join.cpp
+    ```
+3. Execute the executable file created
